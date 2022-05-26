@@ -1,6 +1,6 @@
 version: '3.9'
 services:
-  front:
+  frontend:
     build:
       context: .
       dockerfile: ./.devcontainer/Dockerfile-vscode
@@ -13,4 +13,5 @@ volumes:
   sources:
   bashhistory:
   vscode-extensions:
+
 

@@ -4,7 +4,7 @@
     "../docker-compose.yml",
     "./docker-compose.vscode.yml"
   ],
-  "service": "front",
+  "service": "frontend",
   "workspaceFolder": "/myapp-frontend",
   "customizations": {
     "vscode": {

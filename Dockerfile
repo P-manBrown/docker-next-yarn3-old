@@ -4,7 +4,7 @@ ENV TZ=Asia/Tokyo
 
 WORKDIR /myapp-frontend
 RUN corepack enable npm
-USER $USERNAME
+USER node
 
 EXPOSE 3000
 CMD ["yarn", "dev"]

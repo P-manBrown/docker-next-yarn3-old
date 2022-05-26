@@ -7,6 +7,7 @@ module.exports = {
       'always',
       [
         'build',
+        'chore',
         'ci',
         'docs',
         'feat',
@@ -36,14 +37,14 @@ module.exports = {
             description: 'ビルドシステムや外部依存に関する変更',
             title: 'Builds',
           },
-          ci: {
-            description: 'CIの設定ファイルやスクリプトの変更',
-            title: 'Continuous Integrations',
-          },
           chore: {
             description:
               '補助ツールに関するものなどソースやテストの変更を含まない瑣末な変更',
             title: 'Chores',
+          },
+          ci: {
+            description: 'CIの設定ファイルやスクリプトの変更',
+            title: 'Continuous Integrations',
           },
           docs: {
             description: 'ドキュメントのみの変更',

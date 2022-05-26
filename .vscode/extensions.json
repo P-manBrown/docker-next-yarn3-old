@@ -1,12 +1,7 @@
 {
   "recommendations": [
-    "arcanis.vscode-zipfs",
-    "dbaeumer.vscode-eslint",
-    "EditorConfig.EditorConfig",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-containers",
     "PulkitGangwar.nextjs-snippets",
-    "bradlc.vscode-tailwindcss",
     "csstools.postcss"
   ]
 }

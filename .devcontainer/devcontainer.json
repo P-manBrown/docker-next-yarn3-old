@@ -9,14 +9,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "arcanis.vscode-zipfs",
-        "dbaeumer.vscode-eslint",
         "EditorConfig.EditorConfig",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "PulkitGangwar.nextjs-snippets",
-        "bradlc.vscode-tailwindcss",
-        "csstools.postcss"
+        "streetsidesoftware.code-spell-checker",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "arcanis.vscode-zipfs",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   }

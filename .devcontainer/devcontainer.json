@@ -12,7 +12,6 @@
         "EditorConfig.EditorConfig",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker",
         "VisualStudioExptTeam.vscodeintellicode",
         "arcanis.vscode-zipfs",
         "bradlc.vscode-tailwindcss"

@@ -4,10 +4,13 @@ ENV TZ=Asia/Tokyo
 ARG USERNAME=node
 
 RUN corepack enable npm
-RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhistory/.bash_history" \
-  && mkdir /commandhistory \
-  && touch /commandhistory/.bash_history \
-  && chown -R ${USERNAME} /commandhistory \
+RUN SNIPPET='\n export PROMPT_COMMAND="history -a" && export HISTFILE=/bashlog/.bash_history \n \
+            \n if [ "$SHLVL" = "2" ] ; then \n \
+            \t script -a -f /bashlog/bash.log \n \
+            fi \n' \
+  && mkdir /bashlog \
+  && touch /bashlog/.bash_history /bashlog/bash.log \
+  && chown -R ${USERNAME} /bashlog \
   && echo ${SNIPPET} >> "/home/${USERNAME}/.bashrc"
 
 USER ${USERNAME}
